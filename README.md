@@ -42,7 +42,6 @@ The segmentation is based on three questions for every customer:
 ```
 rfm-segmentation/
 ├── data/
-│   ├── raw/                        ← original dataset (UCI Online Retail II)
 │   └── processed/                  ← cleaned parquet files
 ├── notebooks/
 │   ├── 01_eda.ipynb                ← data loading, validation, cleaning
@@ -51,9 +50,8 @@ rfm-segmentation/
 │   └── 04_visualisation.ipynb      ← segment profiling, Plotly charts, CRM action plan
 ├── reports/
 │   └── figures/                    ← saved plots and interactive HTML charts
-│       ├── 04_rfm_3d.html          ← interactive 3D scatter (open in browser)
-│       └── 04_treemap.html         ← interactive revenue treemap
-├── requirements.txt
+│       
+│       
 └── README.md
 ```
 
